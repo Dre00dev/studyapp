@@ -1,0 +1,51 @@
+name: studyapp
+description: A new Flutter project.
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  firebase_core: ^2.1.0 
+   # cloud_firestore: 3.1.18  //dont use this for some reason it is really slow github fix??
+  cloud_firestore: ^4.0.3
+   #firebase_auth: 3.5.0
+   #firebase_auth_platform_interface
+  firebase_auth: ^4.0.2
+  google_sign_in: 5.3.3
+   #sign_in_with_apple: 4.0.0  99 doublooons a year 
+  crypto: ^3.0.2
+  font_awesome_flutter: ^10.2.1
+  google_fonts: 3.0.1
+  provider: ^6.0.4
+  rxdart: 0.27.4
+  json_annotation: 4.5.0
+  lottie: 1.2.1
+  curved_navigation_bar: 1.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+  build_runner: 2.1.11
+  json_serializable: 6.2.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/
+  - assets/covers/
+  - assets/rocket.json
+  # - assets/.gif  maybe I can add an animation or gif here
